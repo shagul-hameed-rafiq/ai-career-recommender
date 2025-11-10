@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # AI Career Recommender
 Lightweight full-stack demo: **Flask** backend + **React (Vite)** frontend + **scikit-learn** model.  
 Predicts likely career paths from user skills & interests.
