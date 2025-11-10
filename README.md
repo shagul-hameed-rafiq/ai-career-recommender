@@ -1,4 +1,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)](https://flask.palletsprojects.com/)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](#)
+[![Last Commit](https://img.shields.io/github/last-commit/shagul-hameed-rafiq/ai-career-recommender?color=yellow)](https://github.com/shagul-hameed-rafiq/ai-career-recommender/commits/main)
+
 
 # AI Career Recommender
 Lightweight full-stack demo: **Flask** backend + **React (Vite)** frontend + **scikit-learn** model.  
