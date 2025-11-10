@@ -1,8 +1,4 @@
 # AI Career Recommender
-
-Lightweight full-stack demo: **Flask** backend + **React (Vite)** frontend + **scikit-learn** model.
-
-
 Lightweight full-stack demo: **Flask** backend + **React (Vite)** frontend + **scikit-learn** model.  
 Predicts likely career paths from user skills & interests.
 
