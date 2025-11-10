@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+backend/model/
+backend/__pycache__/
+
+# Node / React (for later frontend)
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db

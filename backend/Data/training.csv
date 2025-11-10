@@ -1,0 +1,35 @@
+skills,interests,label
+Python,Web Development,Software Developer
+Python,Django,Software Developer
+Java,Backend Development,Software Developer
+Java,Spring Boot,Software Developer
+JavaScript,Frontend Development,Software Developer
+React,Frontend Development,Software Developer
+HTML CSS,Frontend Development,Software Developer
+SQL,Data Analysis,Data Analyst
+Excel,Data Analysis,Data Analyst
+Power BI,Data Visualization,Data Analyst
+Tableau,Data Visualization,Data Analyst
+R,Statistics,Data Analyst
+Python,Pandas Data Analysis,Data Analyst
+Python,Machine Learning,Machine Learning Engineer
+TensorFlow,Deep Learning,Machine Learning Engineer
+PyTorch,Deep Learning,Machine Learning Engineer
+Statistics,Modeling,Machine Learning Engineer
+Docker,Kubernetes,DevOps Engineer
+Linux,System Administration,DevOps Engineer
+CI/CD,Automation,DevOps Engineer
+AWS,Cloud Infrastructure,DevOps Engineer
+Product Management,User Research,Product Manager
+Business Analysis,Stakeholder Management,Product Manager
+UX,User Experience,Product Designer
+Figma,Interface Design,Product Designer
+Mobile,Android Development,Mobile Developer
+Swift,iOS Development,Mobile Developer
+Cybersecurity,Network Security,Security Engineer
+Go,Distributed Systems,Site Reliability Engineer
+SQL,ETL Pipelines,Data Engineer
+Excel,Office Administration,Office Administrator
+Word,Administration,Office Administrator
+MS Word,Documentation,Office Administrator
+Excel,Reporting,Data Analyst
