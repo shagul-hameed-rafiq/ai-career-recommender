@@ -17,8 +17,11 @@
 
 ## 🧠 Overview
 
-A lightweight, full-stack demo built using **Flask**, **React (Vite)**, and **scikit-learn**.  
-This AI-driven system predicts suitable **career paths** (e.g., *Software Developer, Data Analyst, ML Engineer*) based on a user’s **skills** and **interests**.
+A lightweight, full-stack application built using **Flask**, **React (Vite)**, and **scikit-learn**.
+
+This AI-driven system predicts suitable **career paths** (e.g., Software Developer, Data Analyst, ML Engineer) based on a user’s **skills** and **interests**.
+
+The project demonstrates end-to-end integration of a machine learning model with a REST API and modern frontend interface.
 
 ---
 
@@ -30,27 +33,31 @@ This AI-driven system predicts suitable **career paths** (e.g., *Software Develo
 | Frontend | React (Vite) |
 | ML Model | scikit-learn (TF-IDF + Logistic Regression) |
 | Dataset | Custom CSV (`backend/data/training.csv`) |
-| Deployment | Localhost / GitHub integration ready |
+| Model Serialization | joblib |
+| Deployment | Localhost (CI-ready via GitHub Actions) |
 
 ---
 
-## 🚀 Quick Start (Development)
+## 🏗 System Architecture
 
-### 🔹 Backend
+1. User inputs skills and interests in the React frontend.
+2. Frontend sends a POST request to the Flask backend.
+3. Backend transforms text using TF-IDF vectorizer.
+4. Logistic Regression model predicts the most suitable career category.
+5. API returns structured JSON response.
+6. Frontend dynamically renders the recommended career.
+
+---
+
+## 🚀 Quick Start (Development Setup)
+
+### 🔹 Backend Setup
+
 ```bash
 cd backend
-# create & activate venv (Windows PowerShell)
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-# install dependencies
+.\.venv\Scripts\Activate.ps1        # Windows
 pip install -r requirements.txt
 
-# train model and run server
-python train_model.py    # creates model/career_pipeline.pkl
-python app.py            # runs backend on http://127.0.0.1:5000
-
-
-cd frontend
-npm install
-npm run dev              # runs on http://localhost:5173
+python train_model.py               # trains model & creates model/career_pipeline.pkl
+python app.py                       # runs backend at http://127.0.0.1:5000
